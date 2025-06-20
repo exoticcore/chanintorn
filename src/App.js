@@ -236,7 +236,7 @@ function App() {
                                         bgcolor: '#a39be8',
                                         mx: { xs: 'auto', md: 0 }
                                     }}>
-                                        <img src="/myprofile 1.png" alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                                        <img src={`${process.env.PUBLIC_URL}/myprofile 1.png`} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                     </Box>
                                 </Box>
                             </Grid>
@@ -330,7 +330,7 @@ function App() {
                             overflow: 'hidden',
                             height: { xs: 350, sm: 500, md: 800 }
                         }}>
-                            <img src="/image 1.png" alt="Chanintorn with colorful sculptures" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                            <img src={`${process.env.PUBLIC_URL}/image 1.png`} alt="Chanintorn with colorful sculptures" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </Box>
                     </Container>
 
