@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# 🌟 Chanintorn Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfolio เว็บไซต์ส่วนตัวของ **Chanintorn Chalermsuk** นักพัฒนาเว็บไซต์ฟร้อนท์เอนด์จากประเทศไทย
 
-## Available Scripts
+## 🔗 ลิงก์เว็บไซต์
 
-In the project directory, you can run:
+🌐 **[https://exoticcore.github.io/chanintorn](https://exoticcore.github.io/chanintorn)**
 
-### `npm start`
+## 🛠️ เทคโนโลยีที่ใช้
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19** - JavaScript Library สำหรับสร้าง User Interface
+- **Material-UI (MUI)** - React Component Library
+- **Google Fonts (Kanit)** - ฟอนต์ภาษาไทย
+- **GitHub Pages** - Static Site Hosting
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 ฟีเจอร์
 
-### `npm test`
+- ✅ **Responsive Design** - รองรับทุกขนาดหน้าจอ (Mobile, Tablet, Desktop)
+- ✅ **Dark Theme** - ธีมสีเข้ม
+- ✅ **Smooth Scrolling** - การเลื่อนหน้าจออย่างนุ่มนวล
+- ✅ **Interactive Navigation** - เมนูนำทางที่ใช้งานง่าย
+- ✅ **Contact Form** - ฟอร์มติดต่อ
+- ✅ **Social Media Links** - ลิงก์โซเชียลมีเดีย
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 การติดตั้งและรันโปรเจ็กต์
 
-### `npm run build`
+### ✅ ความต้องการของระบบ
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (เวอร์ชัน 14 หรือใหม่กว่า)
+- npm หรือ yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📥 การติดตั้ง
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone repository:**
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/exoticcore/chanintorn.git
+   cd chanintorn
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **ติดตั้ง dependencies:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **รันในโหมด development:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. **เปิดเบราว์เซอร์ไปที่:**
+   ```
+   http://localhost:3000
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🏗️ การ Build และ Deploy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📦 Build สำหรับ Production
 
-### Code Splitting
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 🚀 Deploy ไปยัง GitHub Pages
 
-### Analyzing the Bundle Size
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📁 โครงสร้างโปรเจ็กต์
 
-### Making a Progressive Web App
+```
+chanintorn-portfolio/
+├── public/
+│   ├── index.html          # HTML template
+│   ├── myprofile 1.png     # รูปโปรไฟล์ Hero section
+│   ├── image 1.png         # รูปภาพ About section
+│   └── ...
+├── src/
+│   ├── App.js              # Component หลัก
+│   └── index.js            # Entry point
+├── package.json            # Dependencies และ scripts
+└── README.md              # เอกสารนี้
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🎨 การปรับแต่ง
 
-### Advanced Configuration
+### เปลี่ยนสีธีม
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+แก้ไขใน `src/App.js` ที่ส่วน `createTheme()`:
 
-### Deployment
+```javascript
+primary: {
+    main: '#D3E97A', // สีหลัก
+},
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### เปลี่ยนฟอนต์
 
-### `npm run build` fails to minify
+แก้ไขใน `public/index.html` และ `src/App.js`:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```javascript
+fontFamily: '"Kanit", "Inter", "Roboto"...';
+```
+
+### เปลี่ยนข้อมูลส่วนตัว
+
+แก้ไขข้อความใน `src/App.js` ในส่วนต่างๆ:
+
+- Hero Section (บรรทัดที่ ~150)
+- About Me Section (บรรทัดที่ ~250)
+- Experience Section (บรรทัดที่ ~380)
+
+## 📞 ติดต่อ
+
+- **Email:** chanintorn.chalermsuk@gmail.com
+- **LinkedIn:** [Chanintorn Chalermsuk](https://linkedin.com/in/chanintorn)
+- **GitHub:** [exoticcore](https://github.com/exoticcore)
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Made with ❤️ by Chanintorn Chalermsuk**
